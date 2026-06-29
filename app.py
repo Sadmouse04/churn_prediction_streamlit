@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st, requests
-N8N = "https://tangyanvei.app.n8n.cloud/webhook/retention/predict"
+N8N = "https://tangyanvei.app.n8n.cloud/webhook/retention"
 
 st.title("Smart Customer Retention Assistant")
 name = st.text_input("Customer name", "Jane Tan")
